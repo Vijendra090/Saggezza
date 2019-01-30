@@ -1,3 +1,5 @@
+package hackerrank;
+
 public class ExtraLongFactorial {
     public static String stringMultiplication(String s1, String s2){
         String rn1= new StringBuffer(s1).reverse().toString();

@@ -1,4 +1,4 @@
-/*Given an integer array with distinct integer and positive integer k, count all
+package hackerrank;/*Given an integer array with distinct integer and positive integer k, count all
 * the distinct pair whose diff equal to k*/
 import java.util.Arrays;
 

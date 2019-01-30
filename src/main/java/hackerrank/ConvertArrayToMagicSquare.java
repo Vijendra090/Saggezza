@@ -1,3 +1,5 @@
+package hackerrank;
+
 import java.util.Arrays;
 
 public class ConvertArrayToMagicSquare {    //not correct code
