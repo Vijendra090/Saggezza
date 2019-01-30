@@ -1,3 +1,5 @@
+package array;
+
 import java.util.Arrays;
 
 public class MoveAllZeroToEnd {
@@ -25,7 +27,7 @@ public class MoveAllZeroToEnd {
             while(cur<arr.length && arr[cur]==0)    // find the next non-zero ele
                 cur++;
             if(cur< arr.length)
-                arr=RearrangeArrayWithOrderPreserve.rightRotateSubArray(arr,i,cur); // rotating the subarray
+                arr= RearrangeArrayWithOrderPreserve.rightRotateSubArray(arr,i,cur); // rotating the subarray
         }
         return arr;
     }

@@ -1,4 +1,4 @@
-/*Given two integer arrays of same size, “arr[]” and “index[]”,
+package array;/*Given two integer arrays of same size, “arr[]” and “index[]”,
   reorder elements in “arr[]” according to given index array */
 
 import java.util.Arrays;

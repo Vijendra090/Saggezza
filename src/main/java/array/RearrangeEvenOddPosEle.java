@@ -1,3 +1,5 @@
+package array;
+
 import java.util.Arrays;
 
 /*Rearrange ele in such way that A[i] <= A[i-1] if i is odd */

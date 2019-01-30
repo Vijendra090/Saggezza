@@ -1,3 +1,5 @@
+package array;
+
 import java.util.Arrays;
 
 /*Rearrange positive and neg ele of an array such that neg ele comes first and then

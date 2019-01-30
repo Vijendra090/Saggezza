@@ -1,4 +1,4 @@
-/* Given an array of size n where all element are distinct and in the range of 0 to n-1
+package array;/* Given an array of size n where all element are distinct and in the range of 0 to n-1
 *  modify the array in such a way that arr[i]=j is changed to arr[j]=i*/
 
 import java.util.Arrays;

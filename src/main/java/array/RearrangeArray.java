@@ -1,4 +1,4 @@
-/* Rearrange an array in such way that arr[i]=i. Array contains ele in range from 0 to n-1,
+package array;/* Rearrange an array in such way that arr[i]=i. Array contains ele in range from 0 to n-1,
 * where n is length of array. All the ele not present in array, the ele not present -1 will be there*/
 
 import java.util.Arrays;

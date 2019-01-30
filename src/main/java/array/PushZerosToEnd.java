@@ -1,4 +1,4 @@
-
+package array;
 /*Convert the array in such a way that if next valid number is same as current number,
   double its value and replace the next number with 0. After the modification, rearrange
   the array such that all 0’s are shifted to the end*/

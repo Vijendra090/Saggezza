@@ -1,3 +1,5 @@
+package array;
+
 import java.util.Arrays;
 
 /*print an array in order - 1st smallest 1st largest, 2nd smallest 2nd largest and so on*/

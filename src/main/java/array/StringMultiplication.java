@@ -1,3 +1,5 @@
+package array;
+
 public class StringMultiplication {
     public static void main(String [] args){
         //String n1="1235421415454545454545454544";

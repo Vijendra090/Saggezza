@@ -1,4 +1,4 @@
-/*Rearrange given array in such way that neg and pos comes in alternate order*/
+package array;/*Rearrange given array in such way that neg and pos comes in alternate order*/
 
 import java.util.Arrays;
 

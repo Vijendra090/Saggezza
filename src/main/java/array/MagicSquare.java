@@ -1,3 +1,5 @@
+package array;
+
 import java.util.Arrays;
 
 /*Magic square is a square matrix of nxn. contains distinct ele from 1 to n^2.
