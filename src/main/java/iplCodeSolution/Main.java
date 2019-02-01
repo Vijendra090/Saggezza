@@ -6,28 +6,19 @@ import java.util.*;
 public class Main {
 
     public static void top4TeamsElectedToFieldFirstAfterWinningToss(List<MatchDetails> matches){
-        TreeMap<String, Integer> team2017= new TreeMap<String, Integer>();
-        TreeMap<String, Integer> team2016= new TreeMap<String, Integer>();
+        TreeMap<String, Integer> teamWinTossCount= new TreeMap<String, Integer>();
         for(MatchDetails match: matches){
 
-            if(match.getSeason()==2017){
-                Integer c = team2017.get(match.getTossWinner());
+            if(match.getSeason()==2017 || match.getSeason()==2016){
+                Integer c = teamWinTossCount.get(match.getTossWinner());
                 if(c==null)
-                    team2017.put(match.getTossWinner(),1);
+                    teamWinTossCount.put(match.getTossWinner(),1);
                 else
-                    team2017.put(match.getTossWinner(),++c);
-            }
-
-            if(match.getSeason()==2016){
-                Integer c = team2016.get(match.getTossWinner());
-                if(c==null)
-                    team2016.put(match.getTossWinner(),1);
-                else
-                    team2016.put(match.getTossWinner(),++c);
+                    teamWinTossCount.put(match.getTossWinner(),++c);
             }
         }
 
-        System.out.println(team2017);
+        System.out.println(teamWinTossCount);
     }
 
     public static void main(String[] args) throws IOException {
@@ -40,9 +31,12 @@ public class Main {
         reader.readLine();
         List<MatchDetails> matches= new ArrayList<MatchDetails>();
         while((line=reader.readLine())!=null){
+//            System.out.println(line);
             row= line.split(",");
             if( Integer.parseInt(row[1])!=2017 && Integer.parseInt(row[1])!=2016)
                 continue;
+//            for(int i=0;i<row.length;i++)
+//                System.out.print(row[i]+"->");
             index=0;
             MatchDetails matchDetails= new MatchDetails();
             for(String column: row){
@@ -66,6 +60,7 @@ public class Main {
                     matchDetails.setResult(column);
                 if(index==9)
                     matchDetails.setWinner(column);
+                index++;
             }
             matches.add(matchDetails);
         }
