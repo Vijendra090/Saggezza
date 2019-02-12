@@ -4,33 +4,59 @@ import org.omg.PortableInterceptor.INACTIVE;
 import java.util.*;
 
 public class Test {
-    public static void main(String[] args){
 
-        //array list
-        ArrayList<Integer> list = new ArrayList<Integer>();
-        list.add(10);
-        list.add(20);
-        list.add(30);
-        //linked list
-        LinkedList<Integer> linkedList = new LinkedList<Integer>(list);
-        linkedList.addFirst(20);
-        System.out.println(linkedList);
+    static class Queue
+    {
+        static Stack<Integer> s1 = new Stack<Integer>();
+        static Stack<Integer> s2 = new Stack<Integer>();
 
-        //hashset
-        HashSet<Integer> hashSet= new HashSet<Integer>();
-        LinkedHashSet<Integer> linkedHashSet= new LinkedHashSet<Integer>();
+        static void enQueue(int x)
+        {
+            // Move all elements from s1 to s2
+            while (!s1.isEmpty())
+            {
+                s2.push(s1.pop());
+                //s1.pop();
+            }
 
-        //TreeMap
-        TreeMap<Integer, Integer> treeMap = new TreeMap<Integer, Integer>();
+            // Push item into s1
+            s1.push(x);
 
-        //Queue interface
-        Queue<Integer> queue = new LinkedList<Integer>();
-        ((LinkedList<Integer>) queue).add(10);
-        ((LinkedList<Integer>) queue).add(20);
-        ((LinkedList<Integer>) queue).add(30);
+            // Push everything back to s1
+            while (!s2.isEmpty())
+            {
+                s1.push(s2.pop());
+                //s2.pop();
+            }
+        }
 
-        System.out.println("Queue: "+queue);
-        System.out.println("Queue: "+queue.peek());
+        // Dequeue an item from the queue
+        static int deQueue()
+        {
+            // if first stack is empty
+            if (s1.isEmpty())
+            {
+                System.out.println("Q is Empty");
+                System.exit(0);
+            }
 
+            // Return top of s1
+            int x = s1.peek();
+            s1.pop();
+            return x;
+        }
+    };
+
+    // Driver code
+    public static void main(String[] args)
+    {
+        Queue q = new Queue();
+        q.enQueue(1);
+        q.enQueue(2);
+        q.enQueue(3);
+
+        System.out.println(q.deQueue());
+        System.out.println(q.deQueue());
+        System.out.println(q.deQueue());
     }
 }
