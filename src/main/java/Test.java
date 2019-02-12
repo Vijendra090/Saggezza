@@ -1,8 +1,21 @@
+public class Test{
+    static int i;
+    static int j;
+    static int k;
+    static {
+        System.out.println("Inside static block");
+        i=10;
+    }
 
-import org.omg.PortableInterceptor.INACTIVE;
+    Test(int j){
+        this.j=j;
+    }
 
-import java.util.*;
+    public void assign(){
+        k=20;
+    }
 
+<<<<<<< HEAD
 public class Test {
 
     static class Queue
@@ -58,5 +71,14 @@ public class Test {
         System.out.println(q.deQueue());
         System.out.println(q.deQueue());
         System.out.println(q.deQueue());
+=======
+    void display(){
+        System.out.println("i= "+i+" j= "+j+" k= "+k);
+    }
+    public static void main(String[] args){
+        Test obj = new Test(5);
+        obj.assign();
+        obj.display();
+>>>>>>> 475c71dae5de6a2f433cdd15a8d2fae9ddb3542f
     }
 }
