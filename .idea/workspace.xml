@@ -2,15 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="906431a0-ca27-427e-a68d-af3137d42c0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/PascalTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codes/gs/AtoiMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codes/gs/FirstNonRepeatingChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codes/gs/MergerTwoSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codes/gs/ReverseWordsInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codes/gs/StockShellAndBuy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/3.4.1/file-changes/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/3.4.1/taskHistory/fileSnapshots.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/3.4.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/3.4.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/built.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/iplCodeSolution.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/iplCodeSolution/Solutions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/iplCodeSolution/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/iplCodeSolution/Solutions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/iplCodeSolution/Utility$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/iplCodeSolution/Utility$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/iplCodeSolution/Utility.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackerrank/TimeInWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerrank/TimeInWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iplCodeSolution/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/iplCodeSolution/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CountPairsWithDiffK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Saggezza.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hackerrank/TimeInWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hackerrank/TimeInWords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/iplCodeSolution/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/iplCodeSolution/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/iplCodeSolution/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -267,9 +281,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4972826" visible="true" weight="0.26928896" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4972826" visible="true" weight="0.26928896" />
       <window_info id="Structure" order="1" sideWeight="0.5027174" side_tool="true" weight="0.26096824" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -283,7 +296,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.95098037" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.95098037" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32843137" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3267974" />

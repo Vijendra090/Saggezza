@@ -1,5 +1,6 @@
 public class Test{
 
+<<<<<<< HEAD
     static Node head;
     static class Node{
         int data;
@@ -63,6 +64,11 @@ public class Test{
         }
     }
     public static void main(String[] args) {
+=======
+import org.omg.PortableInterceptor.INACTIVE;
+
+import java.util.*;
+>>>>>>> 5e8e310a4ead9d83aecb02baac16dba173f248d7
 
         Node n1=new Node(10);
         Node n2=new Node(20);
@@ -77,7 +83,26 @@ public class Test{
         n4.next=n5;
         n5.next=n2;
 
+<<<<<<< HEAD
         detectAndRemoveLoop();
         displayList();
+=======
+        //hashset
+        HashSet<Integer> hashSet= new HashSet<Integer>();
+        LinkedHashSet<Integer> linkedHashSet= new LinkedHashSet<Integer>();
+
+        //TreeMap
+        TreeMap<Integer, Integer> treeMap = new TreeMap<Integer, Integer>();
+
+        //Queue interface
+        Queue<Integer> queue = new LinkedList<Integer>();
+        ((LinkedList<Integer>) queue).add(10);
+        ((LinkedList<Integer>) queue).add(20);
+        ((LinkedList<Integer>) queue).add(30);
+
+        System.out.println("Queue: "+queue);
+        System.out.println("Queue: "+queue.peek());
+
+>>>>>>> 5e8e310a4ead9d83aecb02baac16dba173f248d7
     }
 }
