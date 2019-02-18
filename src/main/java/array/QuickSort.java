@@ -10,7 +10,7 @@ public class QuickSort {
         int q=j;
         int tmp;
         while( p<q ) {
-            while(a[p]<=pivot) {
+            while(a[p]<pivot) {
                 p++;
             }
             while(a[q]>pivot) {
