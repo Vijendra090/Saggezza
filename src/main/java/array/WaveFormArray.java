@@ -15,7 +15,6 @@ public class WaveFormArray {
     //logic to sort an array into wave form
     public static int[] waveFormLiner(int[] a){
         int len=a.length;
-        int tmp;
         for(int i=0;i<len;i=i+2){
 
             if(i>0 && a[i]<a[i-1]){
