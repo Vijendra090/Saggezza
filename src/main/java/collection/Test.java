@@ -4,7 +4,7 @@ import java.util.EnumSet;
 
 enum Gfg{
     CODE, LEARN, CONTRIBUTE, QUIZ, MCQ
-};
+}
 
 public class Test {
 
