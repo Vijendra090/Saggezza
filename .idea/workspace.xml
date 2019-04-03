@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0cfccc2-0d81-4727-a4fb-126f337068f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/BinaryHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/FindTwoPrimeNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/RootToLeafPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/amazon/IsSumTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amazon/IsSumTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/amazon/IsSumTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/amazon/IsSumTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/amazon/Node.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +31,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/amazon/FindTwoPrimeNum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/amazon/BinaryHeap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -75,7 +90,6 @@
         <option value="$PROJECT_DIR$/src/main/java/amazon/RightMostSetBit.java" />
         <option value="$PROJECT_DIR$/src/main/java/amazon/PrintAllPossibleString.java" />
         <option value="$PROJECT_DIR$/src/main/java/amazon/LowestPossibleNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/amazon/IsSumTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/amazon/CountAllPaths.java" />
         <option value="$PROJECT_DIR$/src/main/java/amazon/FlippedCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/designPattern/singletonDesignPattern/EagerInitialization.java" />
@@ -84,6 +98,11 @@
         <option value="$PROJECT_DIR$/src/main/java/designPattern/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/array/WaveFormArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/amazon/FindTwoPrimeNum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/amazon/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/amazon/IsSumTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/amazon/RootToLeafPath.java" />
+        <option value="$PROJECT_DIR$/src/main/java/amazon/BinaryHeap.java" />
       </list>
     </option>
   </component>
@@ -98,8 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,10 +142,20 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Saggezza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Saggezza" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="amazon" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,9 +177,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
-    <configuration name="CountAllPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="amazon.CountAllPaths" />
+  <component name="RunManager" selected="Application.IsSumTree">
+    <configuration name="FindTwoPrimeNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="amazon.FindTwoPrimeNum" />
       <module name="Saggezza" />
       <extension name="coverage">
         <pattern>
@@ -164,8 +191,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlippedCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="amazon.FlippedCount" />
+    <configuration name="IsSumTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="amazon.IsSumTree" />
       <module name="Saggezza" />
       <extension name="coverage">
         <pattern>
@@ -177,12 +204,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.PascalTriangle" />
+    <configuration name="RootToLeafPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="amazon.RootToLeafPath" />
       <module name="Saggezza" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="amazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,19 +238,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PascalTriangle" />
-      <item itemvalue="Application.CountAllPaths" />
-      <item itemvalue="Application.FlippedCount" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.FindTwoPrimeNum" />
+      <item itemvalue="Application.RootToLeafPath" />
+      <item itemvalue="Application.IsSumTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsSumTree" />
+        <item itemvalue="Application.RootToLeafPath" />
+        <item itemvalue="Application.FindTwoPrimeNum" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.FlippedCount" />
-        <item itemvalue="Application.CountAllPaths" />
-        <item itemvalue="Application.PascalTriangle" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +271,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26701966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2708018" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -255,7 +282,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.3006536" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.47058824" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30392158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -263,7 +290,6 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49848485" weight="0.95098037" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3251634" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -273,6 +299,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32954547" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
     </layout>
   </component>
   <component name="XDebuggerManager">
@@ -290,34 +317,6 @@
     <SUITE FILE_PATH="coverage/Saggezza$Test__1_.ic" NAME="Test (1) Coverage Results" MODIFIED="1554203738260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/codes/gs/AtoiMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tree/Utility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tree/InsertEleInBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tree/SerachElementInBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -553,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/amazon/IsSumTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designPattern/singletonDesignPattern/DoubleLockInitialization.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -611,8 +603,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/amazon/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/amazon/IsSumTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/amazon/RootToLeafPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/amazon/FindTwoPrimeNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/amazon/BinaryHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>

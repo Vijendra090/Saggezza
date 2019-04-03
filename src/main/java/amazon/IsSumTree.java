@@ -1,25 +1,14 @@
 package amazon;
 
-class Node{
-    int data;
-    Node left;
-    Node right;
-    Node(int data){
-        this.data=data;
-        this.left=null;
-        this.right=null;
-    }
-}
-
 public class IsSumTree {
-    static Node root;
-    static int sumNode(Node node){
+    static TreeNode root;
+    static int sumNode(TreeNode node){
         if(node==null)
             return 0;
         return sumNode(node.left)+node.data+ sumNode(node.right);
     }
 
-    static int isSumTree(Node root){
+    static int isSumTree(TreeNode root){
         int ls,rs;
         if(root==null || (root.left==null && root.right==null))
             return 1;
@@ -30,12 +19,12 @@ public class IsSumTree {
         return 0;
     }
     public static void main(String[] args){
-        root=new Node(26);
-        root.left=new Node(10);
-        root.right=new Node(3);
-        root.left.left= new Node(4);
-        root.left.right=new Node(6);
-        root.right.right=new Node(3);
+        root=new TreeNode(26);
+        root.left=new TreeNode(10);
+        root.right=new TreeNode(3);
+        root.left.left= new TreeNode(4);
+        root.left.right=new TreeNode(6);
+        root.right.right=new TreeNode(3);
 
         if(isSumTree(root)==1)
             System.out.println("yes");
