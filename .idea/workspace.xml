@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0cfccc2-0d81-4727-a4fb-126f337068f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/BinaryHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/FindTwoPrimeNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/RootToLeafPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/amazon/IsSumTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amazon/IsSumTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/amazon/IsSumTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/amazon/IsSumTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/amazon/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/amazon/BinaryHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amazon/BinaryHeap.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +36,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/amazon/BinaryHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="309">
+              <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+              <folding>
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,14 +142,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Saggezza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Saggezza" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="amazon" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -638,8 +631,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/amazon/BinaryHeap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="309">
+          <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <folding>
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

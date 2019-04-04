@@ -31,13 +31,17 @@ public class BinaryHeap {
             temp[i]= heap.arr[i];
     }
 
+    void maxHeapify(BinaryHeap heap, int i){
+
+    }
+
     void buildHeap(BinaryHeap heap, int[] a, int n){
         if(n> heap.capacity)
             reSizeHeap(heap,n);
         for(int i=0; i<n; i++)
             heap.arr[i]= a[i];
-        //for(int i=(n/2); i>=0;i--)
-            //maxHeapify(heap.arr,i);
+        for(int i=(n/2); i>=0;i--)
+            maxHeapify(heap,i);
     }
 
 }
